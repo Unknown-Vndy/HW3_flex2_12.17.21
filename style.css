@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.h {
+    padding: 20px 0;
+}
+.center {
+    margin: 0 auto;
+    width: 800px;
+}
+
+/* header --------------- */
+
+header {
+    background-image: url(./pictures/header_picture.png);
+    background-color: rgb(78, 78, 78);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 450px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+    text-align: center;
+}
+
+header p {
+    padding-bottom: 40px;
+}
+
+.button {
+    background-color: rgb(78, 78, 78);
+    padding: 15px 30px;
+    color: inherit;
+    text-decoration: none;
+    border: 1px solid white;
+}
+
+.button:hover {
+    background-color: white;
+    color: rgb(78, 78, 78);
+}
+
+/* main ----------------------- */
+
+main {
+    color: rgb(77, 77, 77);
+}
+
+.alikeSectionsWrapper{
+    background-color: rgb(238, 237, 229);
+    height: 150px;
+    width: 100%;
+}
+
+.section1, .section3 {
+    text-align: center;
+}
+
+.section1 h2{
+    padding: 20px 15px
+}
+
+.section3 h2 {
+    padding: 30px 15px;
+}
+
+.ListWrapper {
+    height: inherit;
+    width: 100%;
+    background-color: rgb(51, 50, 50);
+}
+
+.section2 img {
+    width: inherit;
+    height: 200px;
+}
+
+.section2 {
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+
+    text-align: center;
+}
+
+.section2 div {
+    width: 230px;
+    background-color: white;
+}
+
+.section2 p {
+    padding: 20px;
+}
+
+/* footer ------------ */
+
+footer {
+    color: white;
+}
+.footer1 {
+    display: flex;
+    text-align: center;
+}
+
+.footer1 .block1, .footer1 .block2 {
+    height: 175px;
+    width: 50%;
+    padding: 0 20px;
+}
+
+.footer1 .block1 {
+    background-color: rgb(126, 194, 233);
+}
+
+.footer1 .block1 p{
+    padding-bottom: 20px;
+}
+
+.footer1 .block2 {
+    background-color: rgb(51, 50, 50);
+}
+
+.footer2 {
+    background-color: black;
+    text-align: center;
+
+    display: flex;
+}
+
+.footer2 .block {
+    height: 100px;
+    width: 50%;
+    padding: 40px 20px;
+}
+
+.footer2 a{
+    color: rgb(123, 204, 231);
+    text-decoration: none;
+}
